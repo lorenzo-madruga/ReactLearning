@@ -1,0 +1,15 @@
+.botao-formulario {
+    background-color: #17E4B9;
+    color: #091D24;
+    border: none;
+    padding: 8px 16px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 8px;
+    line-height: 120%;
+}
+
+.botao-formulario:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
