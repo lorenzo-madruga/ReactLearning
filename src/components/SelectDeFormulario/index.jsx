@@ -1,9 +1,9 @@
 import './SelectFormulario.estilos.css'
 
-export function SelectDeFormulario({ children }) {
+export function SelectDeFormulario({ children, ...rest }) {
     return (
-       <select className="select-formulario">
+       <select {...rest} className="select-formulario">
             {children}
-       </select> 
+       </select>
     )
 }
